@@ -5,9 +5,41 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
   </head>
   <body>
-    // All of your HTML goes here
+  <header>
+  <h1 class="display-3">About Me</h1>
+  </header>
+  <article class="container">
+  <div class="row">
+  <div class="col">
+  <figure class="figure">
+  	<img src="images/nice_photo.jpg" width="100%" height="auto"/>
+  	<figcaption class="caption">My favorite photo</figcaption>
+  </figure>	
+  </div>
+  <div class="col">
+  <ul>
+  <li>
+  <button class="fname btn btn-primary btn-lg">First Name</button>
+  <div id="fname" style="display: none; width: 100%;"></div>
+  </li>
+  <li><button class="lname btn btn-primary btn-lg ">Last Name</button>
+  <div id="lname" style="display: none; width: 100%"></div>
+  </li>
+  <li><button class="jtitle btn btn-primary btn-lg">Job Title</button>
+  <div id="jtitle" style="display: none; width: 100%"></div>
+  </li>
+  <li><button class="hoffice btn btn-primary btn-lg">Home Office</button>
+  <div id="hoffice" style="display: none; width: 100%"></div>
+  </li>
+  </ul>
+  	
+  </div>
+  </div>
+  </article>
+  <footer></footer>
     <script src="init.js"></script>
   </body>
 </html>

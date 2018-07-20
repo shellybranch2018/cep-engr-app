@@ -1,1 +1,62 @@
-// All of your CSS goes here
+html {background: #eee}
+
+h1 {
+
+    text-align: center;
+    line-height: 261px;
+    letter-spacing: 21px;
+
+}
+
+.caption {text-align: center;}
+
+.caption_box img { 
+width: 100%; 
+max-width: 543px;
+}
+
+ul {list-style: none;}
+
+button {
+    text-decoration: none;
+    text-align: center;
+    display: block;   
+    background: #007bff;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 543px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 13px;
+    font-size: 15px;
+}
+
+section {display: flex; 
+max-width: 1200px; 
+margin: auto
+}
+
+article {
+    width: 100%;
+    display: flex;
+    max-width: 971px;
+    margin: auto;
+}
+
+
+
+header {
+    background: url(images/hd_back.jpg) no-repeat;
+    min-height: 295px;
+    padding: 0px;    
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    margin-top: 20px;
+}
+.btn-group-lg > .btn, .btn-lg {
+    margin-top: 20px;
+}
